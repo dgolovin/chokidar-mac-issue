@@ -1,4 +1,8 @@
-node .
+This simple example is to replicate error on macOS when watching `/var/run` folder for using `chokidar@4` package.
+The same code works fine after inatalling chokidar@3.6 usign `npm install chokidar@3.6`.
+
+```
+$node .
 addDir /var/run Stats {
   dev: 16777233,
   mode: 16893,
@@ -38,3 +42,4 @@ Emitted 'error' event on FSWatcher instance at:
 }
 
 Node.js v22.7.0
+```
