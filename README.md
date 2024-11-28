@@ -1,6 +1,12 @@
 This simple example is to replicate error on macOS when watching `/var/run` folder for using `chokidar@4` package.
 The same code works fine after inatalling chokidar@3.6 usign `npm install chokidar@3.6`.
 
+To replicate:
+
+1. npm install
+2. node .
+
+
 ```
 $node .
 addDir /var/run Stats {
